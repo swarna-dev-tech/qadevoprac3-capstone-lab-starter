@@ -1,6 +1,6 @@
 app:
   version: latest
-  repo: qa-tech-training
+  repo: swarna-dev-tech
 
 service:
   port: 3000
