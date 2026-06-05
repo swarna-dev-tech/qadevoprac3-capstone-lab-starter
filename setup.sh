@@ -7,3 +7,4 @@ wget https://raw.githubusercontent.com/qa-tech-training/qadevoprac3-capstone-lab
 terraform init > terraform.log 2>&1
 terraform apply -auto-approve >> terraform.log 2>&1
 terraform output
+
