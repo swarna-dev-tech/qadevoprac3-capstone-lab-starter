@@ -6,6 +6,12 @@ USER 1000
 
 WORKDIR app
 
+COPY package.json .
+RUN npm install
+COPY . .
+RUN npm run build
+
+
 # TODO: add the instructions needed to copy the package.json, install dependencies, and copy the server.js file
 
 CMD ["node", "server.js"]
