@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        TF_VAR_gcp_project = "<your GCP project ID here>" // REPLACE WITH YOUR PROJECT ID FROM QWIKLABS
+        TF_VAR_gcp_project = "qwiklabs-gcp-04-8a6bdfe87605" // REPLACE WITH YOUR PROJECT ID FROM QWIKLABS
     }
     stages {
         stage("Configure Cluster") {
