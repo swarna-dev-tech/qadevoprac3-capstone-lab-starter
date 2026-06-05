@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "gcs" {
-    bucket = "qadevoprac3-capstone-bucket-19340-2989"
+    bucket = "qadevoprac3-capstone-bucket-5351-15492"
     prefix = "terraform/cluster"
   }
 }
