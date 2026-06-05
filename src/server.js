@@ -34,7 +34,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello from the server');
+  res.send('Hello from the server edited by Swarna');
 });
 
 // Expose metrics endpoint
