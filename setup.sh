@@ -1,4 +1,5 @@
 export TF_VAR_gcp_project=$(gcloud config get project)
+
 export GCS_BUCKET="qadevoprac3-capstone-bucket-$RANDOM-$RANDOM"
 printf "Creating Bucket\n\n"
 gcloud storage buckets create gs://$GCS_BUCKET --location=europe-west1
